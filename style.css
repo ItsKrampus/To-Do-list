@@ -1,0 +1,82 @@
+body{
+    background-color: gainsboro;
+}
+
+.inputbox{
+    display: inline-block;
+    margin: 20px;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+
+h1{
+    display: block;
+    align-items:self-end;
+    padding: 10px;
+    font-style:normal;
+}
+.taskbox{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    display: flexbox    ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 25%;
+    margin: 5px;
+    outline: gray;
+    
+
+  }
+
+  .tasklist{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 10px;
+    list-style-type : none;
+  }
+  .tasks{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type : none;
+    background-color: gainsboro;
+    width: 80%;
+    height: 60px;
+    margin: 20px;
+    border-radius: 5px;
+    
+
+  }
+  .Taskbutton{
+    width: 80%;
+    background-color: rgb(21, 205, 27);
+    border: none;
+    height: 30px;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .removebutton{
+    background-color: rgb(255, 62, 62);
+    margin:5px;
+    color: white;
+    width: 85px;
+    border-radius: 5px;
+    border:none
+
+  }
