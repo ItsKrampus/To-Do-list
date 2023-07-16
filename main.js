@@ -24,14 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
           listItem.style.textDecoration = "none";
         }
       });
-        
-      
+
       const removeButton = document.createElement("button");
       removeButton.textContent = "Delete";
       removeButton.addEventListener("click", function () {
         listItem.remove();
       });
-      removeButton.className="removebutton"
+      removeButton.className = "removebutton";
 
       listItem.appendChild(checkbox);
       listItem.appendChild(label);
